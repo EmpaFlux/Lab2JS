@@ -1,9 +1,43 @@
-<html>
+<!--<html lang='eng'>
     <head>
         <script src='script.js'></script>
     </head>
     <body>
         <form
         Book Name: <input type="text" id="bookName"> <br>
+    </body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lab 2 web</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="content">
+                </div>
+                <div class="vertical-container">
+                    <div class="navigation">
+                        <button class="navBtn" id="getKeyBtn">Request API key</button>
+                        <button class="navBtn" id="fetchBookBtn">See all books</button>
+                    </div>
+                    <div class="main">
+                        <div id="bookListDiv"></div>
+                        <div id="keyDiv"></div>
+                        <div id="statusDiv"></div>
+                    </div>
+                    <form id="addBook">
+                        <p>Add a book:</p>
+                        <input type="text" id="addBookTitle" placeholder="Book title">
+                        <input type="text" id="addAuthor" placeholder="Author">
+                        <input type="submit" class="submitBtn" value="Add book">
+                    </form>
+                </div>
+        </div>
+        
     </body>
 </html>
